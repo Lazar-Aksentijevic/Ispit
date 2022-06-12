@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.header{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    display: block;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    border-radius: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 650px;
+    background-color: black;
+    font-size: 0;
+    
+}
+nav a{
+    line-height: 50px;
+    height: 80px;
+    font-size: 15px;
+    display: inline-block;
+    z-index: 1;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: white;
+    cursor: pointer;
+
+    width: 30%;
+}
+nav a:hover{
+    background-color: red;
+}
+.image{
+    float: left;
+}
+.container5{
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.image_arandjelovac{
+    width: 1400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.p1{
+    font-weight: bold;
+}
+.p2{
+    float: right;
+}
+.container{
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+}
+
+.container0{
+    
+    width: 800px;
+    height: 850px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+}
+.container1{
+    height: 850px;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+}
+.content_content-right{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+
+.button{
+    float: right;
+    background-color: rgb(30, 30, 255);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+    border-color: rgb(35, 35, 216);
+    font-family: sans-serif;
+    
+}
+.container2{
+    
+    height: 250px;
+    width: 1000px;
+    margin: auto;
+}
+.slika_levo{
+    float: left;
+}
+.tekst_desno{
+    float: right;
+    width: 600px;
+    height: 200px;
+    font-size: 26px;
+}
+img:hover {
+    opacity: 0.5;
+  }
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    display: block;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer_tekst{
+    float: left;
+}
